@@ -23,3 +23,40 @@ To run XRates locally on your machine, follow these steps:
    ```bash
    git clone https://github.com/yourusername/xrates.git
    cd xrates
+   npm start
+
+
+## API Reference
+
+#### Using fixer.io or 
+
+```http
+  const CurrencyConverter = () => {
+  const [exchangeRates, setExchangeRates] = useState({});
+  const accessKey = 'e2b3cf6042*****06aad3cf250414'; // Your API key
+  const baseUrl = 'http://data.fixer.io/api/';
+  const [amount, setAmount] = useState(1); // Amount to be converted
+  const [baseCurrency, setBaseCurrency] = useState('USD'); // Base currency
+  const [targetCurrency, setTargetCurrency] = useState('USD'); // Target currency
+  const [convertedAmount, setConvertedAmount] = useState(null);
+  const [showResult, setShowResult] = useState(false); // Status to be displayed
+
+```
+
+| API Endpoint | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `http://data.fixer.io/api/` | `const accessKey` | **Required**. Your API key |
+
+#### Using exchangeratesapi.io
+
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `http://api.exchangeratesapi.io/v1/latest`      | `const accessKey` | **Required**. Your API key |
+
+
+
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+
