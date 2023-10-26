@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,300&display=swap');
+.title {
+    margin-top: 10px; /* Отступ сверху для названия приложения */
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: 'Montserrat'; 
+  }
+  .is-large-text {
+    font-size: 2rem; /* Измените размер шрифта на ваш вкус */
+    font-weight: bold; /* Укажите желаемый стиль шрифта, например, жирный */
+    /* Другие стили, по вашему выбору */
+  }
+  .is-large-number {
+    font-size: 1.2rem;  /* Размер шрифта для чисел */
+    font-weight: bold; /* Жирный текст для чисел */
+    /* Другие стили по вашему выбору */
+  }

@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import 'bulma/css/bulma.css';
+import CurrencyConverter from './components/CurrencyConverter';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1 className="title">XRates</h1>
+        <br></br>
       </header>
+      <div className="container">
+        <div className="columns is-centered">
+          <div className="column is-two-thirds"> {/* Измените ширину по вашему усмотрению */}
+            <div className="box"> {/* Добавьте класс "box" для рамки */}
+              <CurrencyConverter />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
