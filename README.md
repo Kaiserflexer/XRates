@@ -1,4 +1,5 @@
 # XRates - Currency Converter Web App
+
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 XRates is a simple and interactive web application for converting currencies. It provides real-time exchange rate data and allows users to easily convert between different currencies. This application is built using React and utilizes the Fixer API to fetch the latest exchange rate information.
