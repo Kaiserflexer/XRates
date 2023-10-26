@@ -28,9 +28,9 @@ To run XRates locally on your machine, follow these steps:
 
 ## API Reference
 
-#### Using fixer.io or 
+#### Using fixer.io
 
-```http
+```javascript
   const CurrencyConverter = () => {
   const [exchangeRates, setExchangeRates] = useState({});
   const accessKey = 'e2b3cf6042*****06aad3cf250414'; // Your API key
